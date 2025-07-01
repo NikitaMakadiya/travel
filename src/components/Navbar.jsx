@@ -15,18 +15,18 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-white shadow-md border-b">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="bg-transparent shadow-md text-white ">
+            <div className="max-w-7xl h-20 mx-auto px-4 sm:px-6 lg:px-8 mt-3">
                 <div className="flex justify-between h-16 items-center">
-                    <div className="text-2xl  text-black-600">Travel</div>
+                    <div className="text-2xl ">Travel</div>
 
-                    <div className="hidden md:flex space-x-8">
+                    <div className="hidden md:flex space-x-8 ">
                         {nlink.map((link, index) => (
                             <NavLink
                                 key={index}
                                 to={link.url}
                                 className={({ isActive }) =>
-                                    isActive ? 'text-primary' : 'text-black'
+                                    isActive ? 'text-white text-1xl' : 'text-white'
                                 }
                             >
                                 {link.title}
