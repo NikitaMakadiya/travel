@@ -2,7 +2,7 @@ import { CiCalendarDate } from "react-icons/ci";
 
 function Filter() {
   return (
-    <div class="w-3/4 mx-auto p-4  h-[141px]  absolute bottom-1/30 left-1/2 -translate-x-1/2 translate-y-1/2 bg-[#F8F8F8] flex flex-col gap-5 md:flex-row   justify-between items-center ">
+    <div class="md:w-[1328px]  mx-auto p-4  md:mb-3.5 md:h-[141px] md:absolute bottom-1/30 left-1/2 -translate-x-1/2 translate-y-1/2 bg-[#F8F8F8] flex flex-col gap-5 md:flex-row   justify-between items-center ">
       <div className=" w-full flex justify-center items-center gap-2">
         <div className="text-2xl">
           <CiCalendarDate />
