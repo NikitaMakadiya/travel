@@ -43,7 +43,6 @@ const PlaneTripe = () => {
           Book Now
         </button>
       </div>
-      hello
     </div>
   );
 };
