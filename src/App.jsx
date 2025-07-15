@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className="min-h-[70vh]">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="About" element={<About />} />
         </Routes>
       </div>
       <div className="w-full">

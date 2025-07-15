@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="max-w-3/4 h mx-auto flex ">
+    <div className="max-w-3/4 h mx-auto flex p-3.5 mt-14">
       <div className=" md:w-2/8 ">
         <div className="text-3xl font-semibold mb-5">Tavel</div>
 
