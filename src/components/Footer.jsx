@@ -18,7 +18,7 @@ const Footer = () => {
 
       <div className="flex justify-between w-full ml-10">
         <div className="flex flex-col space-y-3">
-          <h1 className="text-2xl font-medium">Company</h1>
+          <p className="text-2xl font-medium">Company</p>
 
           <span>AboutUS</span>
           <span>Careers</span>
@@ -26,7 +26,7 @@ const Footer = () => {
           <span>Pricing</span>
         </div>
         <div className="flex flex-col space-y-3">
-          <h1 className="text-2xl font-medium">Destination</h1>
+          <p className="text-2xl font-medium">Destination</p>
 
           <span>Maldives</span>
           <span>LosAngelas</span>
@@ -34,7 +34,7 @@ const Footer = () => {
           <span>Torronto</span>
         </div>
         <div className="flex flex-col space-y-3">
-          <h1 className="text-2xl font-medium">Join Our NewsLletter</h1>
+          <p className="text-2xl font-medium">Join Our NewsLletter</p>
 
           <input type="text" name="" id="" />
         </div>

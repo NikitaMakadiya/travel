@@ -15,7 +15,7 @@ const About = () => {
           <div className="w-full">
             <p className="text-[18px] text-primary font-medium ">Promotion</p>
 
-            <h1 className="w-full">
+            <h1 className="w-full text-center">
               We Provide You Best Europe Sightseeing Tours
             </h1>
             <p className="text=[16px] mb-6">
@@ -98,9 +98,8 @@ const About = () => {
 
         <div className="m-auto mb-20  flex flex-col justify-center items-center">
           <p className="text-[18px] text-primary font-medium ">Trend</p>
-          <p className="text-[40px] mb-4.5 font-bold font-Volkhov ">
-            Our International Packages
-          </p>
+
+          <h1>Our International Packages</h1>
           <div className=" w-full   grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
             <div className='bg-[url("./public/g1.png")] bg-cover bg-center h-full w-full  flex justify-between px-5 items-end text-white'>
               <p>Barcelona</p>
@@ -180,7 +179,9 @@ const About = () => {
 
         <p className="text-[18px] text-primary font-medium ">Premotion</p>
 
-        <h1 className="w-[639px]">See What Our Clients Say About Us</h1>
+        <h1 className="text-center w-[565px]">
+          See What Our Clients Say About Us
+        </h1>
         <div className=" relative bg- bg-white w-[538px] h-[277px] flex flex-col justify-center items-center py-10 mt-5">
           <p className="text-[12px] w-[393px] text-center mt-10">
             Vel officiis dolor ea illo aut eligendi ullam non laudantium magnam
