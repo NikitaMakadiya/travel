@@ -136,12 +136,9 @@ const About = () => {
                 alt=""
               />
             </div>
-            <div className="  ">
-              <img
-                src="./public/g1.png"
-                className="h-full w-full object-cover"
-                alt=""
-              />
+            <div className='bg-[url("./public/g1.png")] bg-cover bg-center h-full w-full  flex justify-between px-5 items-end text-white'>
+              <p>Barcelona</p>
+              <p>$840</p>
             </div>
             <div className=" ">
               <img
