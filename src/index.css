@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Yesteryear&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Yesteryear&display=swap");
 @import "tailwindcss";
 
 @theme {
   --color-primary: #df6951;
   --font-Volkhov: "Volkhov", "sans-serif";
+  --font-Poppins: "Poppins", "sans-serif";
+
   --font-Yesteryear: "Yesteryear", "sans-serif";
 }
 
@@ -14,12 +16,61 @@
 .herotext {
   font-family: Yesteryear;
   font-size: 158px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.herotextsmall {
+  font-family: Poppins;
+  font-size: 18px;
+  letter-spacing: 10%;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+  color: var(--color-primary);
 }
 h1 {
   font-family: "Volkhov", serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
   line-height: 71.04px;
   letter-spacing: 0; /* or normal */
-  text-align: center;
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+.btn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--color-primary); /* Tailwind default teal-600 */
+  border-radius: 10px;
+  font-size: 16px;
+  height: 58px;
+  width: 152px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #e14d09; /* darker on hover */
+}
+@media (min-width: 768px) {
+  .btn {
+    display: flex;
+  }
 }

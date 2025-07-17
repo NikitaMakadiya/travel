@@ -4,30 +4,25 @@ const About = () => {
   return (
     <>
       <div className=' flex flex-col items-center justify-center px-6 md:px-16 lg:px-24 xl:px-32 text-white bg-[url("./public/aboutimg.png")] bg-no-repeat bg-cover bg-center h-[750px]'>
-        <p className="text-5xl text-center">About Us</p>
-        <p className="text-5xl text-center herotext">About Us</p>
+        <p className="herotextsmall">Read</p>
+        <p className="herotext">About Us</p>
         <div></div>
       </div>
 
       <div className="md:w-7xl  mx-auto px-4 sm:px-6 lg:px-8 mt-15 mb-10 space-y-30">
         {/* promation section */}
         <div className="flex flex-col md:flex-row mb-20">
-          <div className="w-full">
-            <p className="text-[18px] text-primary font-medium ">Promotion</p>
-
-            <h1 className="w-full text-center">
-              We Provide You Best Europe Sightseeing Tours
-            </h1>
-            <p className="text=[16px] mb-6">
+          <div className="w-full space-y-5">
+            <h4>Promotion</h4>
+            <h1>We Provide You Best Europe Sightseeing Tours</h1>
+            <p>
               Et labore harum non nobis ipsum eum molestias mollitia et corporis
               praesentium a laudantium internos. Non quis eius quo eligendi
               corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut
               ducimus illum aut optio quibusdam!
             </p>
 
-            <button className="hidden md:flex w-[152px] h-[58px] bg-primary text-white  justify-center items-center  rounded-[10px] ">
-              view Package
-            </button>
+            <button className="btn">view Package</button>
           </div>
 
           <div className="w-full">
@@ -62,22 +57,20 @@ const About = () => {
           <img src="public/aboutvido.png" alt="" />
         </div>
         {/* video section */}
-        <div className="flex gap-2 relative ">
+        <div className="flex flex-col md:flex-row gap-2 relative  ">
           <div className="w-2/4">
             <img src="./public/cardabout.png" className="w-3/4" alt="" />
           </div>
 
-          <div className="w-3/4  p-10">
-            <p className="text-[18px] text-primary font-medium ">Trend</p>
-            <p className="text-[40px] mb-4.5  w-3/4">Our Popular Tour Plans</p>
-            <p className="text-[40px] mb-4.5 font-Volkhov w-3/4">
-              Our Popular Tour Plans
-            </p>
-            <p className="text=[16px] mb-6  w-3/4">
+          <div className="w-3/4  p-10 space-y-5">
+            <h4>Trend</h4>
+            <h1>Our Popular Tour Plans</h1>
+            <p>
               Et labore harum non nobis ipsum eum molestias mollitia et corporis
               praesentium a laudantium. Et labore harum non nobis ipsum eum
               molestias mollitia et corporis praesentium a laudantium.
             </p>
+
             <div className="flex justify-between   w-1/2">
               <div className="relative w-20 h-20">
                 <div className="w-full h-full rounded-full  border-10 border-blue-500     border-t-gray-200 shadow-inner  boxShadow: '0 4px 6px hsla(0, 0%, 0%, 0.25)  animate-spin-slow" />
