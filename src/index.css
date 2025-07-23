@@ -3,12 +3,10 @@
 
 @theme {
   --color-primary: #df6951;
+  --font-Volkhov: "Volkhov", "sans-serif";
+  --font-Yesteryear: "Yesteryear", "sans-serif";
 }
 
 * {
   font-family: Poppins;
-}
-
-.logo-name {
-  font-family: Volkhov;
 }
