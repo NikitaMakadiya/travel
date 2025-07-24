@@ -86,7 +86,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="md:hidden bg-white text-black rounded-lg shadow-md mt-2 py-6 px-4 space-y-4">
+          <div className="md:hidden bg-white text-black  rounded-lg shadow-md mt-2 py-6 px-4 space-y-4">
             {Navbarlink.map((link, index) => (
               <div key={index}>
                 <div
@@ -101,7 +101,7 @@ const Navbar = () => {
                 >
                   <NavLink
                     to={link.url}
-                    className="text-base font-medium py-2 w-full"
+                    className="text-base font-medium hover:text-primary py-2 w-full"
                     onClick={() => {
                       if (!link.submenu) closeAll();
                     }}
