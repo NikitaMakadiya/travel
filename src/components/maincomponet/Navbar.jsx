@@ -68,9 +68,7 @@ const Navbar = () => {
                 )}
               </div>
             ))}
-            <div className="bg-primary text-white px-4 py-2 rounded-md cursor-pointer">
-              Get in Touch
-            </div>
+            <div className="btn">Get in Touch</div>
           </div>
 
           {/* Hamburger Icon */}
@@ -137,9 +135,7 @@ const Navbar = () => {
                 )}
               </div>
             ))}
-            <div className="bg-primary text-white text-center py-3 rounded-md">
-              Get in Touch
-            </div>
+            <div className="btn">Get in Touc</div>
           </div>
         )}
       </div>
