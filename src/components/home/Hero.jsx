@@ -9,7 +9,7 @@ const Hero = () => {
             No matter where you’re going to, we’ll take you there
           </h1>
         </div>
-        <div className=" mx-auto   flex flex-col gap-5 mt-20 justify-self-start items-center md:flex-row  px-5     py-6 md:h-[102px]   backdrop-blur-sm bg-[#F3F3F399]  ">
+        <div className="md:mx-[10%] mx-auto md:w-1/2  w-auto flex flex-col gap-5 mt-10 justify-self-start items-center md:flex-row  justify-evenly   md:h-[12%]   p-10  backdrop-blur-sm bg-[#F3F3F399]  ">
           <div className="  border-r-2 p-3 text-white   pr-10  decoration-1 border-[#D0D0D0] text-center ">
             where to ?
           </div>
@@ -19,6 +19,7 @@ const Hero = () => {
           <div className="  border-r-2 p-3 text-white   pr-10  decoration-1 border-[#D0D0D0] text-center">
             duration
           </div>
+
           <button className="btn">Submit</button>
         </div>
       </div>
