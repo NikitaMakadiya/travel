@@ -74,12 +74,12 @@ const Navbar = () => {
 
           {/* Hamburger Icon */}
           <div className="md:hidden">
-            <button
+            <div
               onClick={() => setMenuOpen(!menuOpen)}
               className="text-white text-3xl focus:outline-none"
             >
               ☰
-            </button>
+            </div>
           </div>
         </div>
 
