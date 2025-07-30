@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full shadow-md fixed top-0 left-0 z-50 bg-transparent md:bg-transparent">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="responsive-container">
         <div className="flex justify-between h-20 items-center">
           <div className="text-3xl font-bold text-white">Travel</div>
 
@@ -53,7 +53,7 @@ const Navbar = () => {
                 </NavLink>
 
                 {link.submenu && (
-                  <div className="absolute left-0 mt-2 hidden group-hover:block bg-white text-black rounded-md shadow-lg z-10 min-w-[200px]">
+                  <div className="absolute left-0 top-full mt-2 opacity-0 group-hover:visible group-hover:opacity-100 hover:visible hover:opacity-100 transition-opacity bg-white text-gray-800 rounded-md shadow-lg z-50 min-w-[200px]">
                     {link.submenu.map((sublink, subIndex) => (
                       <NavLink
                         key={subIndex}
@@ -68,7 +68,8 @@ const Navbar = () => {
                 )}
               </div>
             ))}
-            <div className="btn">Get in Touch</div>
+
+            <button>Get in Touch</button>
           </div>
 
           {/* Hamburger Icon */}
@@ -120,7 +121,7 @@ const Navbar = () => {
 
                 {/* Submenu */}
                 {link.submenu && submenuOpen === link.title && (
-                  <div className="ml-4 mt-1 space-y-2">
+                  <div className="ml-10 mt-1 space-y-2">
                     {link.submenu.map((sublink, subIndex) => (
                       <NavLink
                         key={subIndex}
