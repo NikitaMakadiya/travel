@@ -4,6 +4,7 @@
 @theme {
   --color-primary: #df6951;
   --color-borderright: #d0d0d0;
+  --color--cardbackground: #fff;
   --font-Volkhov: "Volkhov", "sans-serif";
   --font-Yesteryear: "Yesteryear", "sans-serif";
   --font-Poppins: "Poppins", "sans-serif";
@@ -91,12 +92,28 @@ h2 {
   text-transform: uppercase;
   color: var(--color-primary);
 }
+h5 {
+  font-family: var(--font-Poppins);
+  font-weight: 600;
+  font-size: 20px;
+  align-items: center;
+  text-transform: capitalize;
+  color: hsla(241, 45%, 21%, 1);
+}
+p {
+  font-family: var(--font-Poppins);
+  font-weight: 400;
+  font-size: 16px;
+  color: hsla(233, 16%, 44%, 1);
+  line-height: 26px;
+}
 .responsive-container {
   max-width: 80rem; /* 1280px */
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-top: 20px;
 }
 
 @media (min-width: 640px) {

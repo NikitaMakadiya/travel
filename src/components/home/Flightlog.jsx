@@ -2,6 +2,7 @@ const Flightlog = () => {
   const images = [
     { src: "/home/fly1.png", alt: "Image 1" },
     { src: "/home/fly2.png", alt: "Image 1" },
+    { src: "/home/fly4.png", alt: "Image 1" },
     { src: "/home/fly3.png", alt: "Image 1" },
     { src: "/home/fly4.png", alt: "Image 1" },
   ];
